@@ -1,5 +1,11 @@
-// Paste your Firebase WEB app configuration here. These values are public identifiers,
-// not an admin key. Never add service-account credentials to this repository.
-window.BLESSINGS_FIREBASE_CONFIG = null;
-// Example: {apiKey: "...", authDomain: "your-project.firebaseapp.com",
-// projectId: "your-project", appId: "..."};
+// Public Firebase web-app identifiers. Access is controlled by Firestore rules.
+// Never add service-account credentials here.
+window.BLESSINGS_FIREBASE_CONFIG = {
+  apiKey: "AIzaSyCZBWCHHwvZ0qXLsfslIgooqRqInO6Z_ro",
+  authDomain: "godsblessings-1e33d.firebaseapp.com",
+  projectId: "godsblessings-1e33d",
+  storageBucket: "godsblessings-1e33d.firebasestorage.app",
+  messagingSenderId: "898871441554",
+  appId: "1:898871441554:web:61bbffd8bc32c706a90e4b",
+  measurementId: "G-2EF3KY8GR9"
+};
